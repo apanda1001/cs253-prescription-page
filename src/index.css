@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+  margin: 0;
+  font-family: "Ubuntu";
+  color: #333;
+}
+.add-treatment {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.add-treatment label {
+  text-align: left;
+  display: block;
+}
+.add-treatment input, textarea, select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.add-treatment button {
+  background: #8d35f1;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: right;
+}
+.add-treatment h5 {
+  text-align: left;
+}
+.list {
+  font-family: 'Ubuntu';
+}
